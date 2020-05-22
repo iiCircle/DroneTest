@@ -9,3 +9,4 @@
     commands:
       - pwd
       - ls
+      - ls
