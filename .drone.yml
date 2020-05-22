@@ -1,0 +1,13 @@
+---
+  kind: pipeline
+  name: ubuntu-airtest
+  group: build
+  
+  steps:
+  - name: build
+    image: golang
+    commands:
+      - pwd
+      - ls
+      - chmod +x build.sh
+      - ./build.sh
