@@ -9,5 +9,3 @@
     commands:
       - pwd
       - ls
-      - chmod +x build.sh
-      - ./build.sh
